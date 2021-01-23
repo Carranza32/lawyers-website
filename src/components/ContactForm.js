@@ -68,13 +68,11 @@ function ContactForm() {
                <div className="col">
                   <form 
                      className="card custom-card-shadow p-5 mx-auto" 
-                     style={{maxWidth: 30+'rem'}} 
-                     data-aos="zoom-in" 
-                     data-aos-duration="1000"
+                     style={{maxWidth: 30+'rem'}}
                      onSubmit={submitCorreo}
                   >
                      {error ? <p className="alert alert-danger">Errore durante l'invio del modulo</p> : null}
-                     {errorEmail ? <p className="alert alert-danger">Something gone wrong</p> : <p className="alert alert-success">Message sended!</p>}
+                     {errorEmail ? <p className="alert alert-danger">Something gone wrong</p> : null}
 
                      <div className="mb-3">
                         <label htmlFor="name" className="form-label">Name</label>

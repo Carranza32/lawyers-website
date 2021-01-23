@@ -13,7 +13,7 @@ function AboutUs() {
          </div>
 
          <div className="container mt-5">
-            <div className="row mx-0" data-aos="fade-right" data-aos-duration="1000">
+            <div className="row mx-0">
                <p className="border-left-color display-6">CHI SIAMO</p>
                <div className="col-sm-12 col-md-6">
                   <p className="text-muted h4">Bella domanda!</p>
@@ -34,7 +34,7 @@ function AboutUs() {
          </div>
 
          <div className="container mt-5">
-            <div className="row mx-0" data-aos="fade-left" data-aos-duration="1000">
+            <div className="row mx-0">
                <div className="col-sm-12 col-md-6 m-auto">
                   <img src={window.location.origin + '/assets/images/right-4944555_1920.jpg'} alt="about us" className="img-fluid shadow-lg custom-card-shadow" />
                </div>

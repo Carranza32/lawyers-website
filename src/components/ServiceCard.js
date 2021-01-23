@@ -18,7 +18,7 @@ function ServiceCard({col, isSmall, title, description}) {
 
    return (
       <div className={col+` center card-group`} >
-         <div className="card custom-card-shadow quick-info-cards mb-5 pb-2" style={style} data-aos="zoom-in" data-aos-duration="1000">
+         <div className="card custom-card-shadow quick-info-cards mb-5 pb-2" style={style}>
             <div className="card-img-top m-3 text-center">
                <i className="fa fa-balance-scale"></i>
             </div>
