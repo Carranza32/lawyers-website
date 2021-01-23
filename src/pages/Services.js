@@ -9,13 +9,12 @@ function Services() {
       <Fragment>
          <div className="row banner h-500 mx-0">
             <div className="col-12 my-auto text-center">
-               <h3 className="display-5">Services</h3>
-               <p className="text-mute lead h3">Conoce mas de nuestra historia</p>
+               <h3 className="display-5">Servizi</h3>
             </div>
          </div>
 
          <div id="servicios" className="container mt-5">
-            <p className="border-left-color display-6 ">Servicios</p>
+            <p className="border-left-color display-6 ">Servizi</p>
             <div className="row mt-5">
                {               
                   lista.map(item => (

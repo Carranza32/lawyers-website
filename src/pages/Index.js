@@ -15,7 +15,7 @@ function Index() {
          <Header />
          <About />
 
-         <div id="servicios" className="container mt-5" data-aos="fade-left" data-aos-duration="1000">
+         <div id="servicios" className="container mt-5">
             <p className="border-left-color display-6 ">Servizi</p>
             <div className="row card-group mt-5">
                {               

@@ -47,7 +47,7 @@ function Contacts() {
          <div className="container mb-5">
             <div className="row">
                <div className="col border border-2 rounded-3">
-                  <p className="blockquote text-muted">Per le questioni urgenti siamo sempre disponibili, entro le 48 ore dopo la richiesta di appuntamento, nella sede dell’ufficio o attraverso consulenza a distanza tramite videochiamata, Skype o Zoom.</p>
+                  <p className="blockquote text-muted text-justify">Per le questioni urgenti siamo sempre disponibili, entro le 48 ore dopo la richiesta di appuntamento, nella sede dell’ufficio o attraverso consulenza a distanza tramite videochiamata, Skype o Zoom.</p>
                </div>
             </div>
          </div>

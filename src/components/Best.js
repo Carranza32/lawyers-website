@@ -10,8 +10,8 @@ function Best() {
             </div>
             <div className="col-sm-12 col-md-6 primary-color p-5 background-points">
                <p className="display-6">FORMULE DI PAGAMENTO</p>
-               <p className="">La nostra squadra, sempre attenta ai tempi, che cambiano, ed alle situazioni economiche dei nostri utenti, è in grado di offrire la soluzione di pagamento che meglio si adatta ad ognuno, personalizzando la formula, contenuta in un accordo ad hoc.</p>
-               <p className="">"Il primo contatto sarà gratuito, e, poi, Ti prenderemo per mano per
+               <p className="text-justify">La nostra squadra, sempre attenta ai tempi, che cambiano, ed alle situazioni economiche dei nostri utenti, è in grado di offrire la soluzione di pagamento che meglio si adatta ad ognuno, personalizzando la formula, contenuta in un accordo ad hoc.</p>
+               <p className="text-justify">"Il primo contatto sarà gratuito, e, poi, Ti prenderemo per mano per
                   ridarTi tranquillità. Sarà sufficiente entrare a fare parte della
                   nostra "Grande Famiglia", con una semplice iscrizione annuale senza
                   tacito rinnovo, ad un costo decisamente vantaggioso, considerati i

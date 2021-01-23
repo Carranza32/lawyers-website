@@ -8,18 +8,10 @@ function Navbar() {
          <Link className="navbar-brand " to="/home">
             Kairos
          </Link>
-         <button
-            className="navbar-toggler"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarRightAlignExample"
-            aria-controls="navbarRightAlignExample"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-         >
-            <i className="fas fa-bars"></i>
+         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
          </button>
-         <div className="collapse navbar-collapse" id="navbarRightAlignExample">
+         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                <li className="nav-item">
                   <NavLink className="nav-link" activeClassName="active" aria-current="page" to="home">Home</NavLink>

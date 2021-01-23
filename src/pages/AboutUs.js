@@ -8,7 +8,7 @@ function AboutUs() {
          <div className="row banner h-500 mx-0">
             <div className="col-12 my-auto text-center">
                <h3 className="display-5">CHI SIAMO</h3>
-               <p className="text-mute lead h3">Conoce mas de nuestra historia</p>
+               <p className="text-mute lead h3">Per saperne di più sulla nostra storia</p>
             </div>
          </div>
 
@@ -17,8 +17,8 @@ function AboutUs() {
                <p className="border-left-color display-6">CHI SIAMO</p>
                <div className="col-sm-12 col-md-6">
                   <p className="text-muted h4">Bella domanda!</p>
-                  <p className="fs-6">
-                     lavorare in gruppo è nata dalla convinzione che si possano produrre dei risultati incredibili, interagendo insieme verso un obiettivo comune.
+                  <p className="fs-6 text-justify">
+                     Lavorare in gruppo è nata dalla convinzione che si possano produrre dei risultati incredibili, interagendo insieme verso un obiettivo comune.
                      Per quanto si possano ammirare i vincitori solitari, la pura verità è che nessuno da solo è in grado di fare qualcosa di grande valore. 
                      Ci ricorda John Maxwell, nella prima delle leggi del lavoro di squadra, che “Uno è un numero troppo piccolo per raggiungere la grandezza”.
                      Del resto, non c’è nessun problema che non possiamo risolvere insieme, ma molto pochi che possiamo risolvere da soli.
@@ -39,7 +39,7 @@ function AboutUs() {
                   <img src={window.location.origin + '/assets/images/right-4944555_1920.jpg'} alt="about us" className="img-fluid shadow-lg custom-card-shadow" />
                </div>
                <div className="col-sm-12 col-md-6">
-                  <p className="fs-6">
+                  <p className="fs-6 text-justify">
                      Ognuno di noi condivide il merito per le vittorie e le responsabilità per le sconfitte, favorendo una genuina umiltà e un senso comunitario autentico.
                      Altro importante fattore del nostro successo è che vi sia un’etica condivisa, non solo fra le persone che costituiscono il gruppo, ma anche fra le persone esterne che si occupano dell’organizzazione, oltre alla disponibilità di strumenti di lavoro, tecnologia e un ambiente di lavoro nel suo complesso armonioso, dove le persone possano sentirsi a proprio agio. 
                      Le parole chiave della nostra squadra: ASCOLTO ATTIVO E COMPETENZA.
@@ -62,7 +62,7 @@ function AboutUs() {
                            <i className="fa fa-balance-scale"></i>
                         </div>
                         <p className="h1">Una Squadra</p>
-                        <p>La scelta di lavorare in gruppo è nata dalla convinzione che si possano produrre dei risultati incredibili, interagendo insieme verso un obiettivo comune.</p>
+                        <p className="text-justify">La scelta di lavorare in gruppo è nata dalla convinzione che si possano produrre dei risultati incredibili, interagendo insieme verso un obiettivo comune.</p>
                      </div>
                   </div>
                   <div className="col-sm-12 col-md-4">
@@ -71,7 +71,7 @@ function AboutUs() {
                            <i className="fa fa-balance-scale"></i>
                         </div>
                         <p className="h1">La nostra filosofia</p>
-                        <p>Por mucho que admiremos a los ganadores solitarios, la verdad es que nadie es capaz de hacer nada de gran valor por sí solo.</p>
+                        <p className="text-justify">Per quanto ammiriamo i vincitori solitari, la verità è che nessuno è capace di fare qualcosa di grande valore da solo.</p>
                      </div>
                   </div>
                   <div className="col-sm-12 col-md-4">
@@ -80,7 +80,7 @@ function AboutUs() {
                            <i className="fa fa-balance-scale"></i>
                         </div>
                         <p className="h1">La chiave del successo</p>
-                        <p>Ognuno di noi condivide il merito per le vittorie e le responsabilità per le sconfitte, favorendo una genuina umiltà e un senso comunitario autentico.</p>
+                        <p className="text-justify">Ognuno di noi condivide il merito per le vittorie e le responsabilità per le sconfitte, favorendo una genuina umiltà e un senso comunitario autentico.</p>
                      </div>
                   </div>
                </div>

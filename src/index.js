@@ -11,7 +11,7 @@ ReactDOM.render(
    <BrowserRouter>
       <div>
          <Navbar />
-         <Redirect from="/" to="/home" exact />
+         <Redirect from="/" to="/home"/>
          <Switch>
             <Route path="/home" exact component={Index} />
             <Route path="/about" exact component={AboutUs} />

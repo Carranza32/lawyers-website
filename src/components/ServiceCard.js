@@ -25,7 +25,7 @@ function ServiceCard({col, isSmall, title, description}) {
             
             <div className="card-body">
                <h5 className="card-title">{title}</h5>
-               <p className="card-text" style={truncateDescript}>{description}</p>
+               <p className="card-text text-justify" style={truncateDescript}>{description}</p>
             </div>
             <div className="card-footer border-0">
                <Link to="/services" className="card-link primary-color-text">Leggere di più</Link>
